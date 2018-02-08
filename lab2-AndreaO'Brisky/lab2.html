@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="lab2.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+  <style>
+      body{
+          color: black;
+          font-family: 'Crete Round', serif;
+          background-size:100%;
+      }
+      h1{
+          color: white;
+          text-align: center;
+          font-family: 'Kaushan Script', cursive;
+          font-size: 400%;
+      }
+     h2{
+          color: black;
+          text-align: center;
+          font-family: 'Kaushan Script', cursive;
+          font-size: 400%;
+      }
+      h3{
+          font-size: 130%;
+      }
+      .container{
+          padding: 3%;
+          background:rgba(255,255,255,0.7);
+          height: 630px;
+      }
+      #current{
+          text-align: center;
+      } 
+    </style>
+</head>
+<body>
+<h1> Weather for Current Location </h1>
+    <div class="container">
+        <div class="col">
+            <div id="current"></div>
+        </div>
+        <div class="col">
+            <div id="future"></div>
+        </div>     
+    </div>
+</body>
+</html>
