@@ -1,3 +1,10 @@
+This is my repository for ITWS4500 or Web Science, the next in sequence after Web Systems.
+
+For descriptions of labs:
+Lab 1: Create a twitter ticker!  Take tweets from a JSON file and filter new tweets every 5 seconds.  I made 5 tweets show at a time, and for these tweets I displayed username, user photo, main tweet content and tweet time.
+Lab 2: Using geolocatiom, we needed to display weather at our location.  I used openweather's api in order to get the current forecast and the forecast for the next 10 days (which is displayed on loop in groups of 5).
+
+
 Here are commands that I used to create the git repository:
 
 Windows PowerShell
